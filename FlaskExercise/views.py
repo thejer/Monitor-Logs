@@ -5,8 +5,6 @@ from FlaskExercise import app
 @app.route('/')
 def home():
     log = request.values.get('log_button')
-    # TODO: Appropriately log the different button presses
-    #   with the appropriate log level.
 
     if log == "critical":
         app.logger.critical("It's Critical!!!")

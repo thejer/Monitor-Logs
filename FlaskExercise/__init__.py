@@ -12,7 +12,4 @@ streamHandler = logging.StreamHandler()
 streamHandler.setLevel(logging.WARNING)
 app.logger.addHandler(streamHandler)
 
-# TODO: Set the app's logger level to "warning"
-#   and any other necessary changes
-
 import FlaskExercise.views
